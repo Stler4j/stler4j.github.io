@@ -25,6 +25,10 @@ code {
   font-size: 18px !important;
 }
 
+pre code:not(.language-txt) {
+  color: #9cdcfe !important;
+}
+
 @media screen and (max-width: 1439px) {
   pre,
   code {

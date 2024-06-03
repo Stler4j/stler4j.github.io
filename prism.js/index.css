@@ -32,7 +32,7 @@ pre code:not(.language-txt) {
 @media screen and (max-width: 1439px) {
   pre,
   code {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 }
 

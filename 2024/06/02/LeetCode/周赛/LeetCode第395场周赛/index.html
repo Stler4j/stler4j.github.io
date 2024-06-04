@@ -28,7 +28,7 @@
 <meta property="og:description" content="https:&#x2F;&#x2F;leetcode.cn&#x2F;contest&#x2F;weekly-contest-395 1. 找出与数组相加的整数 Iclass Solution &#123;     public int addedInteger(int[] nums1, int[] nums2) &#123;         Arrays.sort(nums1);         Arrays.sort(nums2);">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-06-02T11:34:39.282Z">
-<meta property="article:modified_time" content="2024-06-02T12:21:07.623Z">
+<meta property="article:modified_time" content="2024-06-04T10:33:02.881Z">
 <meta property="article:author" content="Stler">
 <meta property="article:tag" content="模拟">
 <meta property="article:tag" content="二分">
@@ -69,7 +69,7 @@
 <div class="widgets">
 
 
-<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC398%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第398场周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC400%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第400场周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC399%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第399场周赛</span></a><a class="item title" href="/2024/05/04/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E5%9B%BE%E8%AE%BA/"><span class="title">算法模板/图论</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E5%B8%B8%E7%94%A8/"><span class="title">算法模板/常用</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC131%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第131场双周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC128%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第128场双周赛</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/VSCode/"><span class="title">软件/VSCode</span></a><a class="item title" href="/2024/06/02/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/Vue/Vite%E4%BD%BF%E7%94%A8svg/"><span class="title">Vite引入svg</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC395%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第395场周赛</span></a></div></widget>
+<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/06/02/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC131%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第131场双周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC128%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第128场双周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC400%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第400场周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC399%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第399场周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC398%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第398场周赛</span></a><a class="item title" href="/2024/06/02/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC395%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第395场周赛</span></a><a class="item title" href="/2024/05/04/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E5%9B%BE%E8%AE%BA/"><span class="title">算法模板/图论</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E5%B8%B8%E7%94%A8/"><span class="title">算法模板/常用</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/VSCode/"><span class="title">软件/VSCode</span></a><a class="item title" href="/2024/06/02/%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/Vue/Vite%E4%BD%BF%E7%94%A8svg/"><span class="title">Vite引入svg</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -82,7 +82,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/LeetCode/">LeetCode</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/LeetCode/%E5%91%A8%E8%B5%9B/">周赛</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-06-02T11:34:39.282Z">2024-06-02</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-06-02T12:21:07.623Z">2024-06-02</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-06-02T11:34:39.282Z">2024-06-02</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-06-04T10:33:02.881Z">2024-06-04</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -113,9 +113,9 @@
             for (int i = k, j = 0; i &lt; n; ++i) &#123;
                 if (j &lt; m &amp;&amp; nums1[i] + x == nums2[j]) &#123;
                     ++j;
-                &#125;
-                if (j == m) &#123;
-                    return x;
+                    if (j == m) &#123;
+                        return x;
+                    &#125;
                 &#125;
             &#125;
         &#125;
@@ -141,8 +141,8 @@
     &#125;
 &#125;
 </code></pre>
-<h1 id="4-找出唯一性数组的中位数"><a href="#4-找出唯一性数组的中位数" class="headerlink" title="4. 找出唯一性数组的中位数"></a>4. 找出唯一性数组的中位数</h1><p>长度为$n$的数组共有$m &#x3D; \dfrac{(1 + n)n}{2}$个子数组，中位数为第$k &#x3D; \lceil \dfrac{m}{2} \rceil$个。</p>
-<p>设$f(x)$表示$distinct \leq x$的子数组个数，问题转换为求最小的$x$满足$f(x) \geq k$，$f(x)$具有单调性可以二分。</p>
+<h1 id="4-找出唯一性数组的中位数"><a href="#4-找出唯一性数组的中位数" class="headerlink" title="4. 找出唯一性数组的中位数"></a>4. 找出唯一性数组的中位数</h1><p>长度为$n$的数组共有$m &#x3D; \frac{(1 + n)n}{2}$个子数组，中位数为第$k &#x3D; \lceil \frac{m}{2} \rceil$个。</p>
+<p>设$f(x)$表示$\sum_{l &#x3D; 0}^{n - 1} \sum_{r &#x3D; l}^{n - 1} distinct(nums_{l \dots r}) \leq x$，问题转换为求最小的$x$满足$f(x) \geq k$，$f(x)$具有单调性可以二分。</p>
 <pre><code class="language-java">class Solution &#123;
     static int bisect(int l, int r, Predicate&lt;Integer&gt; predicate, boolean inc) &#123;
         int res = -1;
@@ -151,8 +151,7 @@
             if (predicate.test(mid)) &#123;
                 res = mid;
                 int _ = inc ? (l = mid + 1) : (r = mid - 1);
-            &#125;
-            else &#123;
+            &#125; else &#123;
                 int _ = inc ? (r = mid - 1) : (l = mid + 1);
             &#125;
         &#125;
@@ -160,7 +159,7 @@
     &#125;
     public int medianOfUniquenessArray(int[] nums) &#123;
         int n = nums.length;
-        long m = (long) (1 + n) * n / 2, k = (m + 1) / 2;
+        long m = (1L + n) * n / 2, k = (m + 1) / 2;
         return bisect(1, n, _x -&gt; &#123;
             Map&lt;Integer, Integer&gt; counter = new HashMap&lt;&gt;();
             long fx = 0;

@@ -28,7 +28,7 @@
 <meta property="og:description" content="https:&#x2F;&#x2F;leetcode.cn&#x2F;contest&#x2F;biweekly-contest-131 1. 求出出现两次数字的 XOR 值class Solution &#123;     public int duplicateNumbersXOR(int[] nums) &#123;         long s &#x3D; 0;         int ans &#x3D; 0;         for (int">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-06-02T11:34:39.271Z">
-<meta property="article:modified_time" content="2024-06-04T12:07:03.405Z">
+<meta property="article:modified_time" content="2024-06-08T17:33:22.829Z">
 <meta property="article:author" content="Stler">
 <meta property="article:tag" content="线段树">
 <meta name="twitter:card" content="summary">
@@ -67,7 +67,7 @@
 <div class="widgets">
 
 
-<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/Hexo/Stellar/"><span class="title">Hexo/Stellar</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E5%B8%B8%E7%94%A8/"><span class="title">算法模板/常用</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC400%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第400场周赛</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/JetBrains/"><span class="title">软件/JetBrains</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/%E6%B5%8F%E8%A7%88%E5%99%A8/"><span class="title">软件/浏览器</span></a><a class="item title" href="/2024/06/02/%E5%BC%80%E5%8F%91/Vue/Vite%E4%BD%BF%E7%94%A8svg/"><span class="title">Vite使用svg</span></a><a class="item title" href="/2024/06/04/%E5%BC%80%E5%8F%91/Vue/%E4%BF%AE%E6%94%B9node_modulesu%E6%BA%90%E7%A0%81/"><span class="title">修改node_modules源码</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC131%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第131场双周赛</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC128%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第128场双周赛</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC399%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第399场周赛</span></a></div></widget>
+<widget class="widget-wrapper post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC131%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第131场双周赛</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC128%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第128场双周赛</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC399%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第399场周赛</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><span class="title">算法模板/数据结构</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/Hexo/Stellar/"><span class="title">Hexo/Stellar</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/%E5%B8%B8%E7%94%A8/"><span class="title">算法模板/常用</span></a><a class="item title" href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC400%E5%9C%BA%E5%91%A8%E8%B5%9B/"><span class="title">LeetCode第400场周赛</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/JetBrains/"><span class="title">软件/JetBrains</span></a><a class="item title" href="/2024/06/02/%E8%BD%AF%E4%BB%B6/%E6%B5%8F%E8%A7%88%E5%99%A8/"><span class="title">软件/浏览器</span></a><a class="item title" href="/2024/06/02/%E5%BC%80%E5%8F%91/Vue/Vite%E4%BD%BF%E7%94%A8svg/"><span class="title">Vite使用svg</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
@@ -80,7 +80,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/LeetCode/">LeetCode</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/">双周赛</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-06-02T11:34:39.271Z">2024-06-02</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-06-04T12:07:03.405Z">2024-06-04</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2024-06-02T11:34:39.271Z">2024-06-02</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2024-06-08T17:33:22.829Z">2024-06-09</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -177,6 +177,9 @@ class XTree &#123;
         node.merge();
         return node;
     &#125;
+    void add(int i) &#123;
+        add(i, root);
+    &#125;
     void add(int i, XNode node) &#123;
         if (node.l == node.r) &#123;
             node.leftVal = node.rightVal = node.maxVal = 0;
@@ -188,6 +191,9 @@ class XTree &#123;
             add(i, node.right);
         &#125;
         node.merge();
+    &#125;
+    XNode query(int l, int r) &#123;
+        return query(l, r, root);
     &#125;
     XNode query(int l, int r, XNode node) &#123;
         if (l &lt;= node.l &amp;&amp; node.r &lt;= r) &#123;
@@ -220,7 +226,7 @@ class Solution &#123;
             return node.maxVal - 1;
         &#125;
         // 两个及以上障碍物
-        if (node.maxVal == tree.query(l + 1, r - 1, tree.root).maxVal) &#123;
+        if (node.maxVal == tree.query(l + 1, r - 1).maxVal) &#123;
             return node.maxVal + 1;
         &#125;
         // 一个障碍物
@@ -233,7 +239,7 @@ class Solution &#123;
         for (int[] query : queries) &#123;
             int type = query[0], x = query[1];
             if (type == 1) &#123;
-                tree.add(x, tree.root);
+                tree.add(x);
             &#125; else &#123;
                 int size = query[2];
                 ans.add(query(tree, 0, x) &gt;= size);
@@ -252,7 +258,7 @@ class Solution &#123;
     </section>
     </div>
 </article>
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC128%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/">LeetCode第128场双周赛</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2024/06/02/%E8%BD%AF%E4%BB%B6/Hexo/Hexo/">Hexo</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2024/06/02/%E7%AE%97%E6%B3%95/LeetCode/%E5%8F%8C%E5%91%A8%E8%B5%9B/LeetCode%E7%AC%AC129%E5%9C%BA%E5%8F%8C%E5%91%A8%E8%B5%9B/">LeetCode第129场双周赛</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2024/06/02/%E8%BD%AF%E4%BB%B6/Hexo/Hexo/">Hexo</a></div></section></div>
 
 
 
